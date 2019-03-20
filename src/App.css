@@ -10,7 +10,7 @@ body * {
   transition:all 300ms ease-in-out;
 
 }
-
+ 
 .container {
   width: 100%;
   max-width: 1700px;
@@ -19,7 +19,7 @@ body * {
 }
 
 
-nav {
+ #lp {
   position: fixed;
   width: 100%;
   max-width: 1700px;
@@ -28,7 +28,7 @@ nav {
   z-index: 99;
 }
 
-nav ul:last-of-type {
+#logoPlace:last-of-type {
   position: absolute;
   right: 0;
   z-index: -1;
@@ -90,9 +90,8 @@ h1, h2, h3, h4, .title {
 
 header {
 text-align: center;
-padding-top: 30px;
+padding-top: 0px;
 color: #eee;
-padding-bottom: 40px;
 background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);}
 
 header h1 {
@@ -341,7 +340,7 @@ footer ul li a {
   border-radius:10px;
   color: #eee;
   font-size: 2rem;
-}
+} 
 
 @media (min-width:800px) and (max-width:1150px){
   .intro {
@@ -583,4 +582,11 @@ footer ul:last-of-type li a {
   padding-bottom: 2px;
   margin-left: 5px;
 }
-
+.rcw-message-container > .rcw-header {
+  color: red;
+}
+ 
+.rcw-message > .rcw-response {
+  background-color: #36cce6;
+  color: white;
+}
